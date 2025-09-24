@@ -348,7 +348,7 @@
             setTimeout(() => {
                 const pointsElement = document.querySelector('.points');
                 if (pointsElement) {
-                    pointsElement.click();
+                    // pointsElement.click();
                 }
             }, 100);
             localStorage.setItem('duelingbook_genesys_filter', this.checked ? 'genesys' : 'regular');
@@ -395,3 +395,4 @@
     setTimeout(initialize, 2000);
 
 })();
+
